@@ -8,7 +8,7 @@ R = {}  # results
 # ---------------------------------------------------------------- 1. Agronomy -> machine
 row = 0.50            # m, inter-row spacing (research, Fig.1 / Cruz et al. 2007)
 pop = 80000           # plants/ha (research target ~80,000)
-emerg = 0.90          # assumed field emergence (adjust to seed-lot germination test)
+emerg = 0.90          # assumed field emergence (adjust to seed-lot germination test), amount of seeds that will atually become established plants
 plants_per_m = pop * row / 10000
 seeds_per_m = plants_per_m / emerg
 Xs = 1 / seeds_per_m          # m, in-row seed spacing
